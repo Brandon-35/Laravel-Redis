@@ -28,10 +28,11 @@
 	<link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-	<div id="app">
+    <div id="app">
 		<chat-layout></chat-layout>
 	</div>
-	<script src="/js/app.js"></script>
+	<script src="http://localhost:6001/socket.io/socket.io.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 </html>
 1
