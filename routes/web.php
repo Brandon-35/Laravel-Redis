@@ -38,4 +38,3 @@ Route::post('/messages', function() {
 
   return ['message' => $message->load('user')];
 })->middleware('auth');
-
